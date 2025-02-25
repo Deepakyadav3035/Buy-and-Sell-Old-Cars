@@ -37,5 +37,6 @@ public class Car {
     @ManyToOne
     @JoinColumn(name = "km_driven_id")
     private KM_Driven kmDriven;
+    
 
 }
